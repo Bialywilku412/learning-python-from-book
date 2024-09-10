@@ -42,5 +42,39 @@ print([a*b for a in [1,2,3] for b in [2,3,4]])'''
 
 '''lista = [1,2,3,4,5,6,7,8,9]
 print(lista[:3])
-print(lista[6:])'''
+print(lista[6:])
+print(lista[::3])
 
+[a,b,c,d,e,f,g,h,j] = lista
+print(d, a)
+print([d, a])
+
+L1 = [[2,3],[5,1],[4,8],[0,9]]
+print([y for [x,y] in L1])'''
+
+'''print((1,2 +3,4))
+print({3, (9,0)} | {(2, 1, 8)})'''
+
+'''#a,b = 4,6
+#a.b = (5,0)
+
+print([b for (a,b) in [(5,'A'),(6,'B'), (7,'C')]])
+
+print(set([1,3,5]))
+print(list({1,3,5}))
+print(tuple({1,3,5}))'''
+
+'''print(range(4))
+print(range(len([5,6,7,8])))
+print(range(2,8,1))'''
+
+'''print(list(zip([1,2,3], [4,5,6])))
+print([x*x for x in reversed([1,2,3])])'''
+
+'''fun = {'A':0, 'B':1, 'C':2, 'D':3, 'E':4, 'F':5, \
+       'Z':25}
+print (fun)
+
+print(fun['F'])
+print(fun.keys())
+print(fun.values())'''
