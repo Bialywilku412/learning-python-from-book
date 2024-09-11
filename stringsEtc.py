@@ -78,3 +78,11 @@ print (fun)
 print(fun['F'])
 print(fun.keys())
 print(fun.values())'''
+
+'''d1 = [{'Jan':'Kowalski','Jerzy':'Nowak'}]\
+,{'Ewa':'Kot','Jan':'Burak'}
+k = 'Jan'
+print( [xx[k] for xx in d1])'''
+
+'''def kwadrat(z): return z**2
+print(kwadrat(2))'''
