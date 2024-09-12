@@ -115,3 +115,98 @@ code = "greet('Alice')"
 print(eval(code))'''
 
 '''exec('for x in [3,4,5]: print(x)')'''
+
+
+'''x = (1,2,3)
+new_tuple = x + (10,20)
+print (new_tuple)'''
+
+'''print("Tuples")
+x = ('Adam', 'Ewa', 'Jacek')
+print(x[2])  # Drukuje 'Jacek'
+
+y = (1, 9, 2)
+print(y)  # Drukuje (1, 9, 2)
+print(max(y))  # Drukuje maksymalną wartość z krotki y, czyli 9
+
+for iter in y:
+    print(iter)  # Drukuje wszystkie elementy z krotki y
+
+(x, y) = (4, "Ewa")
+print(y)  # Drukuje 'Ewa'
+
+(a, b) = (98, 99)
+print(b)  # Drukuje 99
+
+a, b = (98, 99)
+print(a)  # Drukuje 98
+
+d = dict()
+d['a'] = 2
+d['b'] = 4
+
+for (k, v) in d.items():
+    print(k, v)  # Drukuje klucz i wartość z słownika
+
+tups = d.items()
+print(tups)  # Drukuje elementy słownika jako pary (klucz, wartość)
+
+print(u"Tuples są porównywalne")
+print((0, 1, 2) < (5, 1, 2))  # Porównanie krotek - zwróci True
+
+# Poprawnie zdefiniowany słownik:
+d = {'a': 10, 'b': 4, 'c': 90}
+
+t = d.items()
+print(t)  # Drukuje elementy słownika jako pary (klucz, wartość)
+
+m = sorted(d.items())
+print(m)  # Drukuje posortowane pary (klucz, wartość) według klucza
+
+for k, v in sorted(d.items()):
+    print(k, v)  # Drukuje posortowane klucze i wartości'''
+
+'''print(tuple())
+print(tuple('abc'))
+print(tuple([1, 2, 3, 4, 5]))
+print(tuple((1, 2, 3, 4, 5)))
+print(tuple(set([1, 2, 3, 4])))
+print(tuple({1:2, 3:4}))
+print(tuple(enumerate(['a', 'b', 'c', 'd'])))'''
+
+'''print(set())
+print(set('abcd'))
+print(set([1, 2, 3, 4, 5, 3 ,5]))
+print(set((1, 2, 3, 4, 5)))
+print(set(set([1, 2, 3, 4])))
+print(set({1: 2, 3: 4}))
+print(set(enumerate({'a', 'b', 'c', 'd'})))'''
+
+'''result = set([1, 2, 3, 4, 5]).union(set([5, 6, 7]))
+print(result)
+
+result1 = set([1, 2, 3, 4, 5]).intersection(set([5, 6, 7]))
+print(result1)
+
+result2 = set([1, 2, 3, 4, 5]).difference(set([5, 6, 7]))
+print(result2)
+
+result3 = set([1, 2, 3, 4, 5]).symmetric_difference([5, 6, 7])
+print(result3)'''
+
+
+'''s = set([1, 2, 3, 4, 5])
+s.update(set([5, 6, 7]))
+print(s)
+
+s1 = set([1, 2, 3, 4, 5])
+s1.intersection_update(set([5, 6, 7]))
+print(s1)
+
+s2 = set([1, 2, 3, 4, 5])
+s2.difference_update(set([5, 6, 7]))
+print(s2)
+
+s3 = set([1, 2, 3, 4, 5])
+s3.symmetric_difference_update(set([5, 6, 7]))
+print(s3)'''
