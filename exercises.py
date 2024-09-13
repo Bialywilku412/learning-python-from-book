@@ -210,3 +210,21 @@ print(s2)
 s3 = set([1, 2, 3, 4, 5])
 s3.symmetric_difference_update(set([5, 6, 7]))
 print(s3)'''
+
+'''s = set([1, 2, 3, 4, 5])
+s.add(5)
+print(s)
+s.add(6)
+print(s)
+
+s1 = set([1, 2, 3, 4, 5])
+s1.remove(5)
+print(s1)
+s1.discard(1)
+print(s1)
+s1.remove(3)
+print(s1)
+
+s2 = set([1, 2, 3, 4, 5])
+print(s2.pop())
+print(s2)'''
