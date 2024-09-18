@@ -221,7 +221,7 @@ def ranges1(M):
 
 print(ranges1([[-5, 40], [30, 20], [70, 140], [60, 150]]))'''
 
-print([1, 24, 76])
+'''print([1, 24, 76])
 print("red", "yellow", "blue")
 print(["red", 24, 79.6])
 print([1, [5, 6, 7], 8]); print([])
@@ -239,7 +239,7 @@ print(range(len(fs)))
 
 for i in range(len(fs)):
     friend = fs[i]
-    print(u"Szczesliwego Nowego Roku:", f)
+    print(u"Szczesliwego Nowego Roku:", f)'''
 
 
 
