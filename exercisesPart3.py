@@ -105,3 +105,127 @@ print(rok.values())
 print(rok.keys())
 print(rok.items())'''
 
+#print("abc")
+#print("""cde""")
+#print('abc')
+#print('''efghi''')
+#print("")
+#print(r"abcd")
+#print(r'abcg')
+#print(r"""xyz""")
+#print(r'''xyz''')
+
+'''print(','.join('abcd'))
+print('  '.join(['a', 'bc', 'd']))
+print(''.join(['a', 'bc', 'd']))
+print('x'.join(['a', 'bc', 'd']))
+print(' '.join({'a': 'x', 'b': 'y'}))
+print('     '.join(set(['a', 'b'])))'''
+
+#print('pEAr'.capitalize())
+'''print('abc123DEF'.upper())
+print('abc123DEF'.lower())'''
+'''
+print('abcdabcd'.replace('bc', 'f'))
+print('abcd abcd'.replace('bc', 'f', 1))
+print('abcdabcdef'.replace('g', 'f'))
+print('aaaaa'.replace('aa', 'f'))'''
+'''
+import time
+print(time.strftime('%Y.%m.%d-%H:%M:%S'))'''
+
+
+'''print('aabcdabcdabc'.find('bc'))
+print('abcdabcd'.find('bc', 3))
+print('abcdabcd'.rfind('bc'))
+print('abcdabcd'.rfind('bc', 3))
+print('abcdabcd'.find('f'))
+print('abcdabcd'.rfind('f'))
+print('abcdabcd'.find('bc', 6))
+print('abcdabcd'.rfind('bc', 6))
+print('abcdabcd'.find('bc', 3, 6))'''
+
+'''
+print(list('funkcja'))  # ['f', 'u', 'n', 'k', 'c', 'j', 'a']
+print(tuple('funkcja')) # ('f', 'u', 'n', 'k', 'c', 'j', 'a')'''
+
+'''
+print('a b c'.partition('  '))
+print('a b c'.partition(' '))
+print('a b c'.rpartition('  '))
+print('a b c'.rpartition(' '))'''
+
+'''
+print('a  bc d'.split())
+print('a  bc d'.split(None))
+print('a  bc d'.split(' '))
+print('a  bc d'.split('  '))
+print('a  bc d'.split('b'))
+print('a  bc d'.split('bc'))'''
+'''
+print(''.isdigit())
+print('1234'.isdigit())
+print('1234abc'.isdigit())'''
+
+'''
+print('*' + 'abcd'.center(30) + '*')
+print('abcd'.ljust(30) + '*')
+print('abcd'.rjust(30))
+print('*' + 'abcd'.ljust(30, '=') + '*')
+print('abcd'.ljust(30, '_')+ '*')
+print('abcd'.rjust(30, '-'))'''
+
+'''print('zabawny string'.startswith('zab'))
+print('zabawny string'.startswith('ing'))'''
+
+'''print('zabawny string'.endswith('zab'))
+print('zabawny string'.endswith('ing'))'''
+
+'''print('     cde     fgh     '.strip())
+print('     cde     fgh     '.strip(None))
+print('aaababcdeababfghbaba'.strip('ab'))
+print('     cde     fgh     '.lstrip())
+print('aababcdeababfghbaba'.lstrip('ab'))
+print('     cde     fgh     '.rstrip())
+print('aababcdeababfghbaba'.rstrip('ab'))'''
+'''
+str1 = 'Hello'
+str2 = ' There'
+jn = str1 + str2
+print(jn)'''
+'''
+str3 = '123'
+x = int(str3) + 1
+print(x)'''
+'''
+owoc = input('Enter: ')
+x = int(owoc)- 10
+print(x)'''
+'''
+owoc = "banan"
+print(len(owoc))'''
+'''
+owoc = 'banan'
+x = 0
+
+# This will print each character of 'banan' with its index
+while x < len(owoc):
+    let = owoc[x]
+    print(x, let)  # Prints index and letter
+    x = x + 1
+
+# After exiting the while loop, this will print each character of 'banan' on a new line
+for let in owoc:
+    print(let)  # Prints each letter on a new line'''
+'''
+word = 'banan'
+ct = 0
+for let in word:
+    if let == 'a':
+        ct = ct + 1
+print(ct)'''
+
+
+
+
+
