@@ -105,6 +105,62 @@ print(jest_w('a', 'baba'))  # Should return True
 print(jest_w('c', 'baba'))  # Should return False
 
 '''
+'''def f(a, *b):
+    print(a)
+    print(*b)
+print(f('kolej', 'auto', 'samolot', 'rower'))'''
+
+'''def nazwa_i_wiek(nazwa, wiek):
+    if wiek >= 0:
+        return nazwa + " ma " +str(wiek) + "lat."
+    else:
+        return "blad : bledny wiek"
+def test(nazwa, wiek):
+    print(nazwa_i_wiek(nazwa,wiek))
+test("Marek Nowak", 40)'''
+
+'''print('Al\'s cat is named Bob')
+print('He flew away in a green\\teal helicopter.')'''
+'''import random
+
+def los():
+    print("dzisiejsze liczby to " +\
+          str(random.randrange(1, 60))+','+\
+          str(random.randrange(1, 60))+','+\
+          str(random.randrange(1, 60))+','+\
+          str(random.randrange(1, 60))+','+\
+          str(random.randrange(1, 60))+','+\
+          str(random.randrange(1, 60)))
+los()'''
+
+'''def str_join(str_list):
+    ans = ""
+    for i in range(len(str_list)):
+        ans += str_list[i]
+    return ans
+print(str_join(["mleko", "i", "ser"]))
+print(str_join(["mleko", " i ", "ser"]))'''
+
+'''s = 'azcbobobegghakl'
+nBobs = 0
+for i in range(1, len(s)-1):
+    if s[i-1:i+2] == "bob":
+        nBobs += 1
+print("liczba wyrazow bob:", nBobs)'''
+
+'''def hello():
+    print("hello")
+hello()'''
+
+'''b = max("Hello world")
+print(b)'''
+
+def gt():
+    return "Hello"
+print(gt(), 'Bob')
+
+
+
 
 
 
